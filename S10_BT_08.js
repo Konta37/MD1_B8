@@ -3,7 +3,7 @@ let b = [];
 for (let i = 0; i < n; i++) {
     b[i] =parseFloat(prompt("Nhập số thứ "+i+" là: "));
 }
-let sosanh=b[i];
+let sosanh=b[0];
 for (let i = 0; i < n; i++) {
     if(sosanh<b[i]) sosanh=b[i];
 }
